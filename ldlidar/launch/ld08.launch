@@ -1,0 +1,6 @@
+<launch>
+ <param name = "product" type = "string" value = "LD08" />
+ <node name="LD08" pkg="ldlidar" type="ldlidar" output="screen">
+ </node>
+ 
+</launch>
